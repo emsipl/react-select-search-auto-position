@@ -39,7 +39,7 @@ export const withMenuPlacement = () => (
                 { value: 'm', name: 'Medium' },
                 { value: 'l', name: 'Large' },
             ]}
-            placeholder="Choose a size"
+            placeholder="Placement: top"
             menuPlacement="top"
             className="select-search upper"
         />
@@ -49,7 +49,7 @@ export const withMenuPlacement = () => (
                 { value: 'm', name: 'Medium' },
                 { value: 'l', name: 'Large' },
             ]}
-            placeholder="Choose a size"
+            placeholder="Placement: auto"
             menuPlacement="auto"
             className="select-search mid"
         />
@@ -59,7 +59,7 @@ export const withMenuPlacement = () => (
                 { value: 'm', name: 'Medium' },
                 { value: 'l', name: 'Large' },
             ]}
-            placeholder="Choose a size"
+            placeholder="Placement: auto"
             menuPlacement="auto"
             className="select-search lower"
         />

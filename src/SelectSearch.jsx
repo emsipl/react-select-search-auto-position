@@ -138,7 +138,8 @@ const SelectSearch = forwardRef(({
                     let optionsRect = selectRef.current.getBoundingClientRect();
                     let mainRect = mainRef.current.getBoundingClientRect();
                     let spaceBelow = window.innerHeight - mainRect.bottom - optionsRect.height;
-                    if (spaceBelow < 0) {
+                    let spaceAbove = mainRect.top - optionsRect.height;
+                    if (spaceBelow < 0 && spaceAbove > spaceBelow) {
                         return 'top';
                     }
                 }
