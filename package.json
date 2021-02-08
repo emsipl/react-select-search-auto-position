@@ -1,7 +1,7 @@
 {
-  "name": "react-select-search",
+  "name": "@emsipl/react-select-search",
   "version": "2.3.0",
-  "description": "Lightweight select component for React",
+  "description": "Fork of https://github.com/tbleckert/react-select-search",
   "main": "dist/esm/index.js",
   "types": "src/index.d.ts",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tbleckert/react-select-search.git"
+    "url": "https://github.com/emsipl/react-select-search-auto-position"
   },
   "keywords": [
     "react",
@@ -26,12 +26,9 @@
     "search",
     "react-component"
   ],
-  "author": "Tobias Bleckert (hola@tobiasbleckert.se)",
+  "author": "emsipl (forked from Tobias Bleckert)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tbleckert/react-select-search/issues"
-  },
-  "homepage": "https://github.com/tbleckert/react-select-search",
+  "homepage": "https://github.com/emsipl/react-select-search-auto-position",
   "peerDependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
