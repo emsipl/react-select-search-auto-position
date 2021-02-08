@@ -1,3 +1,6 @@
+## This is just a fork of original repo. It does not have the care nor code quality of original package. Use at your own risk!
+I created this because I needed an extra functionality of automatically rendering options above input if there wasn't enough space below.
+I made a decision of not creating PR and trying to merge it to original repo, because 1) I'm not very good at react development, so quality of my code is probably not up to standards and 2) this is not a standard feature of every Select component so author might not even want to merge and maintain it. The beauty of original package is that it's lightweight and not bloated with features
 <p align="center">
   <img src="https://user-images.githubusercontent.com/263465/71013376-e4bc3180-20f0-11ea-9768-2a21f6e1607d.png" alt="React Select Search" />
 </p>
