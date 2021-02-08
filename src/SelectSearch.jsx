@@ -130,7 +130,6 @@ const SelectSearch = forwardRef(({
     }
 
     const getMenuPlacement = () => {
-        console.log('getting menu placement')
         switch (menuPlacement) {
             case 'top':
                 return 'top';
