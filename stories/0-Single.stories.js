@@ -1,20 +1,22 @@
 import React from 'react';
 import SelectSearch from '../src';
 import '../style.css';
+import './assets/stories.css';
 import { countries } from './data';
 
 export default {
-  title: 'Single select',
+    title: 'Single select',
 };
 
 export const Default = () => (
     <SelectSearch
         id="test-id"
         options={[
-          { value: 's', name: 'Small' },
-          { value: 'm', name: 'Medium' },
-          { value: 'l', name: 'Large' },
+            { value: 's', name: 'Small' },
+            { value: 'm', name: 'Medium' },
+            { value: 'l', name: 'Large' },
         ]}
+        menuPlacement="auto"
     />
 );
 
@@ -27,6 +29,41 @@ export const withPlaceholder = () => (
         ]}
         placeholder="Choose a size"
     />
+);
+
+export const withMenuPlacement = () => (
+    <div className="with-placement-container">
+        <SelectSearch
+            options={[
+                { value: 's', name: 'Small' },
+                { value: 'm', name: 'Medium' },
+                { value: 'l', name: 'Large' },
+            ]}
+            placeholder="Choose a size"
+            menuPlacement="top"
+            className="select-search upper"
+        />
+        <SelectSearch
+            options={[
+                { value: 's', name: 'Small' },
+                { value: 'm', name: 'Medium' },
+                { value: 'l', name: 'Large' },
+            ]}
+            placeholder="Choose a size"
+            menuPlacement="auto"
+            className="select-search mid"
+        />
+        <SelectSearch
+            options={[
+                { value: 's', name: 'Small' },
+                { value: 'm', name: 'Medium' },
+                { value: 'l', name: 'Large' },
+            ]}
+            placeholder="Choose a size"
+            menuPlacement="auto"
+            className="select-search lower"
+        />
+    </div>
 );
 
 export const Search = () => (

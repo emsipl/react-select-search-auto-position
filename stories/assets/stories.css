@@ -1,0 +1,17 @@
+.with-placement-container {
+    height: 100vh;
+    position: relative;
+    width: 400px;
+}
+.with-placement-container .select-search.upper {
+    position: absolute;
+    top: 100px;
+}
+.with-placement-container .select-search.mid {
+    position: absolute;
+    bottom: 150px;
+}
+.with-placement-container .select-search.lower {
+    position: absolute;
+    bottom: 50px;
+}
